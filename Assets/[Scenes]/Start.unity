@@ -2777,6 +2777,7 @@ GameObject:
   - component: {fileID: 292835759}
   - component: {fileID: 292835761}
   - component: {fileID: 292835760}
+  - component: {fileID: 292835762}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -2843,6 +2844,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292835758}
   m_CullTransparentMesh: 1
+--- !u!95 &292835762
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292835758}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &393752925
 GameObject:
   m_ObjectHideFlags: 0
@@ -3906,6 +3926,7 @@ GameObject:
   - component: {fileID: 1156738985}
   - component: {fileID: 1156738984}
   - component: {fileID: 1156738983}
+  - component: {fileID: 1156738986}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -4027,6 +4048,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156738981}
   m_CullTransparentMesh: 1
+--- !u!95 &1156738986
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156738981}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1342353082
 GameObject:
   m_ObjectHideFlags: 0
@@ -4039,6 +4079,7 @@ GameObject:
   - component: {fileID: 1342353085}
   - component: {fileID: 1342353084}
   - component: {fileID: 1342353083}
+  - component: {fileID: 1342353087}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -4127,6 +4168,29 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!320 &1342353087
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342353082}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 4fe4875cdba68ed4aacaa6e42525415e, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 8408364631791989904, guid: 4fe4875cdba68ed4aacaa6e42525415e, type: 2}
+    value: {fileID: 292835762}
+  - key: {fileID: -2011323468140708864, guid: 4fe4875cdba68ed4aacaa6e42525415e, type: 2}
+    value: {fileID: 1434835567}
+  - key: {fileID: 1266982109163315268, guid: 4fe4875cdba68ed4aacaa6e42525415e, type: 2}
+    value: {fileID: 1156738986}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &1434835563
 GameObject:
   m_ObjectHideFlags: 0
@@ -4138,6 +4202,7 @@ GameObject:
   - component: {fileID: 1434835564}
   - component: {fileID: 1434835566}
   - component: {fileID: 1434835565}
+  - component: {fileID: 1434835567}
   m_Layer: 5
   m_Name: WelcomeLabel
   m_TagString: Untagged
@@ -4261,6 +4326,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434835563}
   m_CullTransparentMesh: 1
+--- !u!95 &1434835567
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434835563}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1739810546
 GameObject:
   m_ObjectHideFlags: 0
